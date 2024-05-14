@@ -1,0 +1,155 @@
+Gradient Boosting Classifier Accuracy: 0.9943519534417784
+Gradient Boosting Classifier Classification Report:
+                precision    recall  f1-score   support
+
+          DDoS       1.00      0.99      1.00    385309
+           DoS       0.99      1.00      0.99    330112
+        Normal       0.12      0.32      0.18       107
+Reconnaissance       1.00      0.99      1.00     18163
+         Theft       0.00      0.00      0.00        14
+
+      accuracy                           0.99    733705
+     macro avg       0.62      0.66      0.63    733705
+  weighted avg       0.99      0.99      0.99    733705
+
+Random Forest Accuracy: 0.9999741040336375
+Random Forest Classification Report:
+                precision    recall  f1-score   support
+
+          DDoS       1.00      1.00      1.00    385309
+           DoS       1.00      1.00      1.00    330112
+        Normal       0.99      0.94      0.97       107
+Reconnaissance       1.00      1.00      1.00     18163
+         Theft       1.00      1.00      1.00        14
+
+      accuracy                           1.00    733705
+     macro avg       1.00      0.99      0.99    733705
+  weighted avg       1.00      1.00      1.00    733705
+
+Extra Trees Accuracy: 0.9999659263600493
+Extra Trees Classification Report:
+                precision    recall  f1-score   support
+
+          DDoS       1.00      1.00      1.00    385309
+           DoS       1.00      1.00      1.00    330112
+        Normal       1.00      0.96      0.98       107
+Reconnaissance       1.00      1.00      1.00     18163
+         Theft       1.00      0.86      0.92        14
+
+      accuracy                           1.00    733705
+     macro avg       1.00      0.96      0.98    733705
+  weighted avg       1.00      1.00      1.00    733705
+
+AdaBoost Accuracy: 0.7046565036356573
+AdaBoost Classification Report:
+                precision    recall  f1-score   support
+
+          DDoS       0.75      0.66      0.70    385309
+           DoS       0.66      0.77      0.71    330112
+        Normal       0.00      0.00      0.00       107
+Reconnaissance       0.99      0.34      0.50     18163
+         Theft       0.00      0.00      0.00        14
+
+      accuracy                           0.70    733705
+     macro avg       0.48      0.35      0.38    733705
+  weighted avg       0.71      0.70      0.70    733705
+
+All DDoS Accuracy: 0.5251552054299753
+All DDoS Classification Report:
+                precision    recall  f1-score   support
+
+          DDoS       0.53      1.00      0.69    385309
+           DoS       0.00      0.00      0.00    330112
+        Normal       0.00      0.00      0.00       107
+Reconnaissance       0.00      0.00      0.00     18163
+         Theft       0.00      0.00      0.00        14
+
+      accuracy                           0.53    733705
+     macro avg       0.11      0.20      0.14    733705
+  weighted avg       0.28      0.53      0.36    733705
+
+Accuracy: 0.999950933958471
+Classification Report:
+                precision    recall  f1-score   support
+
+          DDoS       1.00      1.00      1.00    385309
+           DoS       1.00      1.00      1.00    330112
+        Normal       0.98      0.90      0.94       107
+Reconnaissance       1.00      1.00      1.00     18163
+         Theft       0.82      1.00      0.90        14
+
+      accuracy                           1.00    733705
+     macro avg       0.96      0.98      0.97    733705
+  weighted avg       1.00      1.00      1.00    733705
+
+Accuracy: 0.8945298178423208
+Classification Report:
+                precision    recall  f1-score   support
+
+          DDoS       0.90      0.90      0.90    385309
+           DoS       0.89      0.88      0.89    330112
+        Normal       0.94      0.56      0.70       107
+Reconnaissance       0.87      0.88      0.88     18163
+         Theft       1.00      0.93      0.96        14
+
+      accuracy                           0.89    733705
+     macro avg       0.92      0.83      0.87    733705
+  weighted avg       0.89      0.89      0.89    733705
+
+Accuracy: 0.7086635636938552
+Classification Report:
+                precision    recall  f1-score   support
+
+          DDoS       0.65      1.00      0.79    385309
+           DoS       0.96      0.40      0.57    330112
+        Normal       0.14      0.01      0.02       107
+Reconnaissance       1.00      0.11      0.20     18163
+         Theft       0.00      0.00      0.00        14
+
+      accuracy                           0.71    733705
+     macro avg       0.55      0.30      0.31    733705
+  weighted avg       0.80      0.71      0.67    733705
+
+
+Decision Tree Accuracy: 0.9999604745776572
+Classification Report:
+                precision    recall  f1-score   support
+
+          DDoS       1.00      1.00      1.00    385309
+           DoS       1.00      1.00      1.00    330112
+        Normal       0.97      0.93      0.95       107
+Reconnaissance       1.00      1.00      1.00     18163
+         Theft       0.82      1.00      0.90        14
+
+      accuracy                           1.00    733705
+     macro avg       0.96      0.98      0.97    733705
+  weighted avg       1.00      1.00      1.00    733705
+
+K-Nearest Neighbors Accuracy: 0.8945298178423208
+Classification Report:
+                precision    recall  f1-score   support
+
+          DDoS       0.90      0.90      0.90    385309
+           DoS       0.89      0.88      0.89    330112
+        Normal       0.94      0.56      0.70       107
+Reconnaissance       0.87      0.88      0.88     18163
+         Theft       1.00      0.93      0.96        14
+
+      accuracy                           0.89    733705
+     macro avg       0.92      0.83      0.87    733705
+  weighted avg       0.89      0.89      0.89    733705
+
+Naive Bayes Accuracy: 0.7086635636938552
+Classification Report:
+                precision    recall  f1-score   support
+
+          DDoS       0.65      1.00      0.79    385309
+           DoS       0.96      0.40      0.57    330112
+        Normal       0.14      0.01      0.02       107
+Reconnaissance       1.00      0.11      0.20     18163
+         Theft       0.00      0.00      0.00        14
+
+      accuracy                           0.71    733705
+     macro avg       0.55      0.30      0.31    733705
+  weighted avg       0.80      0.71      0.67    733705
+

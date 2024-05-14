@@ -1,0 +1,98 @@
+Gradient Boosting Classifier Accuracy: 0.9997955581602961
+Gradient Boosting Classifier Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.34      0.43      0.38       107
+           1       1.00      1.00      1.00    733598
+
+    accuracy                           1.00    733705
+   macro avg       0.67      0.71      0.69    733705
+weighted avg       1.00      1.00      1.00    733705
+
+Random Forest Accuracy: 0.9999863705440197
+Random Forest Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.98      0.93      0.95       107
+           1       1.00      1.00      1.00    733598
+
+    accuracy                           1.00    733705
+   macro avg       0.99      0.96      0.98    733705
+weighted avg       1.00      1.00      1.00    733705
+
+Extra Trees Accuracy: 0.999995911163206
+Extra Trees Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.99       107
+           1       1.00      1.00      1.00    733598
+
+    accuracy                           1.00    733705
+   macro avg       1.00      0.99      0.99    733705
+weighted avg       1.00      1.00      1.00    733705
+
+XGB Accuracy: 0.999995911163206
+XGB Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.99       107
+           1       1.00      1.00      1.00    733598
+
+    accuracy                           1.00    733705
+   macro avg       1.00      0.99      0.99    733705
+weighted avg       1.00      1.00      1.00    733705
+
+AdaBoost Accuracy: 0.999841898310629
+AdaBoost Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.43      0.24      0.31       107
+           1       1.00      1.00      1.00    733598
+
+    accuracy                           1.00    733705
+   macro avg       0.71      0.62      0.65    733705
+weighted avg       1.00      1.00      1.00    733705
+
+All Positives Accuracy: 0.9998541648210112
+All Positives Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       107
+           1       1.00      1.00      1.00    733598
+
+    accuracy                           1.00    733705
+   macro avg       0.50      0.50      0.50    733705
+weighted avg       1.00      1.00      1.00    733705
+
+Decision Tree Accuracy: 0.9999890964352158
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.99      0.93      0.96       107
+           1       1.00      1.00      1.00    733598
+
+    accuracy                           1.00    733705
+   macro avg       1.00      0.97      0.98    733705
+weighted avg       1.00      1.00      1.00    733705
+
+K-Nearest Neighbors Accuracy: 0.9999291268289027
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.55      0.69       107
+           1       1.00      1.00      1.00    733598
+
+    accuracy                           1.00    733705
+   macro avg       0.97      0.78      0.85    733705
+weighted avg       1.00      1.00      1.00    733705
+
+Naive Bayes Accuracy: 0.9970165120859201
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.03      0.69      0.06       107
+           1       1.00      1.00      1.00    733598
+
+    accuracy                           1.00    733705
+   macro avg       0.52      0.84      0.53    733705
+weighted avg       1.00      1.00      1.00    733705
